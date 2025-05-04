@@ -78,7 +78,7 @@ if (contactForm) {
 
 // Simple animation on scroll
 const animateOnScroll = () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
+  const elements = document.querySelectorAll('.service-card, .feature-card, .testimonial-card, .stat-item, .image-card');
   
   elements.forEach(element => {
     const elementPosition = element.getBoundingClientRect().top;
@@ -93,7 +93,7 @@ const animateOnScroll = () => {
 
 // Set initial styles for animation
 document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
+  const elements = document.querySelectorAll('.service-card, .feature-card, .testimonial-card, .stat-item, .image-card');
   
   elements.forEach(element => {
     element.style.opacity = '0';
