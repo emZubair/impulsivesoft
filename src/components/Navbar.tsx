@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a href="#" className="flex items-center">
           <img 
-            src="images/logo.png" 
+            src="public/lovable-uploads/5d622ad5-c5b1-48a7-97d7-9ea39bb61dc0.png" 
             alt="ImpulsiveSoft Logo" 
             className="h-10 mr-3" 
           />
