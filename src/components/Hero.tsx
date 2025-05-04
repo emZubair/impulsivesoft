@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-12 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight text-blue-600 animate-fade-in">
-              Innovative IT Solutions for The Digital Era
+              Specialist Automation & Web Development
             </h1>
             <p className="mt-6 text-lg text-gray-600 max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              ImpulsiveSoft delivers high-quality IT engineering solutions through leading freelance platforms, helping businesses transform their digital presence with cutting-edge technology.
+              ImpulsiveSoft delivers high-quality automation and development solutions through leading freelance platforms, specializing in mobile automation, web automation, and Django+React development.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">

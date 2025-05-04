@@ -3,35 +3,35 @@ import { Check } from 'lucide-react';
 
 const services = [
   {
-    title: "Software Development",
-    description: "Custom software solutions tailored to your business needs, from web applications to enterprise systems.",
+    title: "Mobile Automation",
+    description: "Streamline your mobile testing processes with our comprehensive automation solutions.",
     features: [
-      "Full-stack development",
-      "API development & integration",
-      "Legacy system modernization",
-      "Scalable architecture design"
+      "Appium-based automation frameworks",
+      "Cross-platform testing solutions",
+      "CI/CD integration for mobile testing",
+      "Performance and usability testing"
     ],
     color: "from-blue-500 to-indigo-600"
   },
   {
-    title: "Cloud Engineering",
-    description: "Leverage the power of cloud computing with our expert cloud engineering and migration services.",
+    title: "Web Automation",
+    description: "Enhance efficiency and reduce manual effort with our expert web automation services.",
     features: [
-      "Cloud architecture design",
-      "Migration strategy & execution",
-      "DevOps implementation",
-      "Serverless application development"
+      "Selenium-based test automation",
+      "Automated regression testing",
+      "Performance monitoring automation",
+      "Custom automation frameworks"
     ],
     color: "from-teal-400 to-cyan-500"
   },
   {
-    title: "IT Consulting",
-    description: "Strategic technology consulting to help your business navigate digital transformation.",
+    title: "Web Development",
+    description: "Create powerful, scalable web applications with our Django and React development expertise.",
     features: [
-      "Technology roadmap planning",
-      "Digital transformation strategy",
-      "IT infrastructure assessment",
-      "Security & compliance audits"
+      "Django REST framework backend",
+      "React frontend development",
+      "API development & integration",
+      "Responsive UI/UX implementation"
     ],
     color: "from-purple-500 to-fuchsia-500"
   }
@@ -44,7 +44,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle mx-auto">
-            We provide comprehensive IT engineering services to help businesses thrive in the digital landscape.
+            We provide specialized automation and web development services to help businesses streamline operations and build powerful digital solutions.
           </p>
         </div>
 
