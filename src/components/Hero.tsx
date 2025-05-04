@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-12 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight text-blue-600 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black font-display leading-tight text-blue-600 animate-fade-in">
               Specialist Automation & Web Development
             </h1>
             <p className="mt-6 text-lg text-gray-600 max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>

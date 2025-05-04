@@ -121,7 +121,7 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				display: ['Poppins', 'sans-serif'],
+				display: ['Orbitron', 'sans-serif'],
 			}
 		}
 	},
