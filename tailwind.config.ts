@@ -64,7 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				brand: {
-					blue: "#0A2540",
+					blue: "#4169E1", // Royal Blue to match the logo
 					teal: "#00D4FF",
 					light: "#F7FAFC",
 					dark: "#1A202C",

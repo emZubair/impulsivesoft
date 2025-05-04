@@ -24,22 +24,27 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <span className="text-2xl font-bold text-brand-blue">Cogent Forge</span>
+          <img 
+            src="/public/lovable-uploads/58d6c922-5722-4888-9306-bb4ee9ef8869.png" 
+            alt="ImpulsiveSoft Logo" 
+            className="h-10 mr-3" 
+          />
+          <span className="text-2xl font-bold text-brand-blue">ImpulsiveSoft</span>
         </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-gray-700 hover:text-brand-blue font-medium transition-colors">
+          <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
             Services
           </a>
-          <a href="#about" className="text-gray-700 hover:text-brand-blue font-medium transition-colors">
+          <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
             About
           </a>
-          <a href="#testimonials" className="text-gray-700 hover:text-brand-blue font-medium transition-colors">
+          <a href="#testimonials" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
             Testimonials
           </a>
           <a href="#contact">
-            <Button className="bg-brand-blue hover:bg-brand-blue/90 text-white">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
               Contact Us
             </Button>
           </a>
@@ -47,7 +52,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-brand-blue"
+          className="md:hidden text-blue-600"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Menu size={24} />
@@ -60,21 +65,21 @@ const Navbar = () => {
           <div className="container py-4 flex flex-col space-y-4">
             <a 
               href="#services" 
-              className="text-gray-700 hover:text-brand-blue font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </a>
             <a 
               href="#about" 
-              className="text-gray-700 hover:text-brand-blue font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </a>
             <a 
               href="#testimonials" 
-              className="text-gray-700 hover:text-brand-blue font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonials
@@ -83,7 +88,7 @@ const Navbar = () => {
               href="#contact"
               onClick={() => setIsMenuOpen(false)}
             >
-              <Button className="bg-brand-blue hover:bg-brand-blue/90 text-white w-full">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white w-full">
                 Contact Us
               </Button>
             </a>

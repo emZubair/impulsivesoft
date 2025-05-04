@@ -1,18 +1,23 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-blue text-white py-12">
+    <footer className="bg-blue-600 text-white py-12">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="mb-4">
-              <span className="text-2xl font-bold">Cogent Forge</span>
+            <div className="mb-4 flex items-center">
+              <img 
+                src="/public/lovable-uploads/58d6c922-5722-4888-9306-bb4ee9ef8869.png" 
+                alt="ImpulsiveSoft Logo" 
+                className="h-10 mr-3 bg-white rounded-full p-1" 
+              />
+              <span className="text-2xl font-bold">ImpulsiveSoft</span>
             </div>
             <p className="text-blue-100 mb-6 max-w-md">
               Delivering exceptional IT engineering services through leading freelance platforms. We help businesses transform their digital presence with cutting-edge technology.
             </p>
             <p className="text-blue-200 text-sm">
-              © {new Date().getFullYear()} Cogent Forge. All rights reserved.
+              © {new Date().getFullYear()} ImpulsiveSoft. All rights reserved.
             </p>
           </div>
           
