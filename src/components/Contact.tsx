@@ -1,6 +1,6 @@
 
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -95,8 +95,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900">Location</h4>
-                  <p className="text-gray-600">123 Tech Boulevard,</p>
-                  <p className="text-gray-600">Silicon Valley, CA 94123</p>
+                  <p className="text-gray-600">458E, Canal Garden,</p>
+                  <p className="text-gray-600">Lahore, Pakistan</p>
                 </div>
               </div>
             </div>
@@ -104,19 +104,30 @@ const Contact = () => {
             <div className="mt-10">
               <h4 className="text-lg font-medium text-gray-900 mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                {['linkedin', 'twitter', 'github'].map((platform) => (
-                  <a 
-                    key={platform}
-                    href={`#${platform}`} 
-                    className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
-                  >
-                    <img 
-                      src={`https://cdn.simpleicons.org/${platform}/0A2540`} 
-                      alt={platform} 
-                      className="w-6 h-6"
-                    />
-                  </a>
-                ))}
+                <a 
+                  href="https://linkedin.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <Linkedin className="w-6 h-6 text-brand-blue" />
+                </a>
+                <a 
+                  href="https://twitter.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <Twitter className="w-6 h-6 text-brand-blue" />
+                </a>
+                <a 
+                  href="https://github.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <Github className="w-6 h-6 text-brand-blue" />
+                </a>
               </div>
             </div>
           </div>
