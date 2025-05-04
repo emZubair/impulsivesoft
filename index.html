@@ -1,29 +1,427 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ImpulsiveSoft | IT Engineering Services</title>
-    <meta name="description" content="ImpulsiveSoft provides high-quality IT engineering services through leading freelance platforms, helping businesses transform their digital presence." />
-    <meta name="author" content="ImpulsiveSoft" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImpulsiveSoft - Specialist Automation & Web Development</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="ImpulsiveSoft Logo" class="logo-img">
+          <span class="logo-text">ImpulsiveSoft</span>
+        </a>
 
-    <meta property="og:title" content="ImpulsiveSoft | IT Engineering Services" />
-    <meta property="og:description" content="ImpulsiveSoft provides high-quality IT engineering services through leading freelance platforms, helping businesses transform their digital presence." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="contact-btn">Contact Us</a>
+        </nav>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@impulsivesoft" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <link rel="icon" href="/public/lovable-uploads/58d6c922-5722-4888-9306-bb4ee9ef8869.png" type="image/png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap">
-  </head>
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="contact-btn mobile">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Specialist Automation & Web Development</h1>
+          <p class="hero-subtitle">
+            ImpulsiveSoft delivers high-quality automation and development solutions through leading freelance platforms, specializing in mobile automation, web automation, and Django+React development.
+          </p>
+          <div class="hero-buttons">
+            <a href="#services" class="btn primary">Explore Services</a>
+            <a href="#about" class="btn outline">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Software development workspace with code on screen">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">
+          We provide specialized automation and web development services to help businesses streamline operations and build powerful digital solutions.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Mobile Automation -->
+        <div class="service-card">
+          <div class="card-accent blue"></div>
+          <div class="card-content">
+            <h3 class="card-title">Mobile Automation</h3>
+            <p class="card-description">Streamline your mobile testing processes with our comprehensive automation solutions.</p>
+            <ul class="feature-list">
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Appium-based automation frameworks</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Cross-platform testing solutions</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>CI/CD integration for mobile testing</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Performance and usability testing</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Web Automation -->
+        <div class="service-card">
+          <div class="card-accent teal"></div>
+          <div class="card-content">
+            <h3 class="card-title">Web Automation</h3>
+            <p class="card-description">Enhance efficiency and reduce manual effort with our expert web automation services.</p>
+            <ul class="feature-list">
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Selenium-based test automation</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Automated regression testing</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Performance monitoring automation</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Custom automation frameworks</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="service-card">
+          <div class="card-accent purple"></div>
+          <div class="card-content">
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-description">Create powerful, scalable web applications with our Django and React development expertise.</p>
+            <ul class="feature-list">
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Django REST framework backend</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>React frontend development</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>API development & integration</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Responsive UI/UX implementation</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Large Model Testing & Training -->
+        <div class="service-card">
+          <div class="card-accent orange"></div>
+          <div class="card-content">
+            <h3 class="card-title">Large model testing & training</h3>
+            <p class="card-description">Optimize and validate your machine learning and AI models with our specialized testing and training services.</p>
+            <ul class="feature-list">
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>LLM model validation and testing</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Custom training data preparation</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Performance optimization techniques</span>
+              </li>
+              <li>
+                <span class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Integration with existing systems</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">Who We Are</h2>
+          <p class="about-description">
+            Founded with a passion for technology excellence, our team of experienced IT professionals delivers cutting-edge solutions through leading freelance platforms. We combine technical expertise with a deep understanding of business challenges to help our clients succeed.
+          </p>
+          <p class="about-description">
+            Our values of transparency, quality, and client satisfaction drive everything we do. We work as an extension of your team, providing valuable expertise while maintaining the flexibility and cost-effectiveness of the freelance model.
+          </p>
+          
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">25+</div>
+              <div class="stat-label">Tech Experts</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-images">
+          <div class="image-grid">
+            <div class="image-column">
+              <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Software developer working on code">
+              </div>
+              <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Programming code on computer screen">
+              </div>
+            </div>
+            <div class="image-column offset">
+              <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Professional developer at desk">
+              </div>
+              <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Team of engineers in a meeting">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Client Testimonials</h2>
+        <p class="section-subtitle">
+          Don't just take our word for it. Here's what our clients have to say about working with us.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+          </div>
+          <p class="testimonial-text">Their mobile automation framework reduced our testing time by 70% and significantly improved our app quality. The team's expertise in Appium was exactly what we needed.</p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&auto=format&fit=crop&q=60" alt="Abel de Silva">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Abel de Silva</h4>
+              <p class="author-title">Manager, CiNKO</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+          </div>
+          <p class="testimonial-text">The web automation solution they built transformed our QA process. Our regression testing is now fully automated, saving us countless hours and improving release confidence.</p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=120&h=120&auto=format&fit=crop&q=60" alt="Justin">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Justin</h4>
+              <p class="author-title">Digital Certificates</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+          </div>
+          <p class="testimonial-text">Their Django and React development expertise helped us launch our platform in record time. The responsive UI and robust API architecture exceeded our expectations.</p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&auto=format&fit=crop&q=60" alt="Nora">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Nora</h4>
+              <p class="author-title">Product Owner, Tribes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-branding">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="ImpulsiveSoft Logo" class="footer-logo-img">
+            <span class="footer-logo-text">ImpulsiveSoft</span>
+          </div>
+          <p class="footer-description">
+            Delivering exceptional IT engineering services through leading freelance platforms. We help businesses transform their digital presence with cutting-edge technology.
+          </p>
+          <p class="footer-copyright">
+            © <span id="current-year"></span> ImpulsiveSoft. All rights reserved.
+          </p>
+        </div>
+        
+        <div class="footer-links">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-nav">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services">
+          <h3 class="footer-heading">Services</h3>
+          <ul class="footer-nav">
+            <li><a href="#services">Mobile Automation</a></li>
+            <li><a href="#services">Web Automation</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Large model testing & training</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
