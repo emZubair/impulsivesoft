@@ -11,6 +11,12 @@
   <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
 </head>
 <body>
+  <!-- Download Button (Added for easy download) -->
+  <button id="downloadButton" class="download-button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+    <span>Download Code</span>
+  </button>
+
   <!-- Navbar -->
   <header class="navbar">
     <div class="container">
@@ -390,5 +396,114 @@
   </footer>
 
   <script src="script.js"></script>
+  
+  <!-- Download functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Original initialization code
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      animateOnScroll();
+      
+      // Add download functionality
+      const downloadButton = document.getElementById('downloadButton');
+      downloadButton.addEventListener('click', function() {
+        // Downloads
+        downloadHtml();
+        setTimeout(() => {
+          downloadCss();
+          setTimeout(() => {
+            downloadJs();
+          }, 1000);
+        }, 1000);
+      });
+      
+      function downloadHtml() {
+        const htmlContent = document.documentElement.outerHTML;
+        downloadFile(htmlContent, 'index.html', 'text/html');
+      }
+      
+      function downloadCss() {
+        const stylesheets = Array.from(document.querySelectorAll('link[rel="stylesheet"]'));
+        if (stylesheets.length > 0) {
+          const mainStylesheetHref = stylesheets[0].getAttribute('href');
+          if (mainStylesheetHref) {
+            fetch(mainStylesheetHref)
+              .then(response => response.text())
+              .then(cssContent => {
+                downloadFile(cssContent, 'styles.css', 'text/css');
+              })
+              .catch(error => {
+                console.error('Error downloading CSS:', error);
+              });
+          }
+        }
+      }
+      
+      function downloadJs() {
+        const scripts = Array.from(document.querySelectorAll('script'));
+        const mainScript = scripts.find(script => {
+          const src = script.getAttribute('src');
+          return src && src === 'script.js';
+        });
+        
+        if (mainScript) {
+          const scriptSrc = mainScript.getAttribute('src');
+          if (scriptSrc) {
+            fetch(scriptSrc)
+              .then(response => response.text())
+              .then(jsContent => {
+                downloadFile(jsContent, 'script.js', 'text/javascript');
+              })
+              .catch(error => {
+                console.error('Error downloading JavaScript:', error);
+              });
+          }
+        }
+      }
+      
+      function downloadFile(content, fileName, contentType) {
+        const blob = new Blob([content], { type: contentType });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    });
+  </script>
+  
+  <style>
+    .download-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: var(--brand-blue);
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .download-button:hover {
+      background-color: #344eb0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    .download-button svg {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
 </body>
 </html>
