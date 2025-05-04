@@ -46,9 +46,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+// Contact form handling
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value
+    };
+    
+    // Here you would normally send the data to a server
+    // For static site, we'll just log it and show a success message
+    console.log('Form submitted:', formData);
+    
+    // Show success message
+    alert('Thank you for your message! We will get back to you soon.');
+    
+    // Reset form
+    contactForm.reset();
+  });
+}
+
 // Simple animation on scroll
 const animateOnScroll = () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
+  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card, .info-item, .social-icon');
   
   elements.forEach(element => {
     const elementPosition = element.getBoundingClientRect().top;
@@ -63,7 +88,7 @@ const animateOnScroll = () => {
 
 // Set initial styles for animation
 document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
+  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card, .info-item, .social-icon');
   
   elements.forEach(element => {
     element.style.opacity = '0';
