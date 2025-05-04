@@ -407,6 +407,9 @@
       // Add download functionality
       const downloadButton = document.getElementById('downloadButton');
       downloadButton.addEventListener('click', function() {
+        // Alert to inform about file structure
+        alert('Important: After download, place all files (HTML, CSS, and JS) in the same folder to ensure proper functionality.');
+        
         // Downloads
         downloadHtml();
         setTimeout(() => {
@@ -419,7 +422,12 @@
       
       function downloadHtml() {
         const htmlContent = document.documentElement.outerHTML;
-        downloadFile(htmlContent, 'index.html', 'text/html');
+        // Replace relative paths to ensure files work locally
+        const modifiedHtmlContent = htmlContent
+          .replace(/<link[^>]*href="[^"]*styles\.css"[^>]*>/g, '<link rel="stylesheet" href="styles.css">')
+          .replace(/<script[^>]*src="[^"]*script\.js"[^>]*>/g, '<script src="script.js"></script>');
+        
+        downloadFile(modifiedHtmlContent, 'index.html', 'text/html');
       }
       
       function downloadCss() {

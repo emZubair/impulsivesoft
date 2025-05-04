@@ -4,7 +4,18 @@
  */
 export function downloadProjectAsHtml() {
   // Get the HTML content
-  const htmlContent = document.documentElement.outerHTML;
+  let htmlContent = document.documentElement.outerHTML;
+  
+  // Modify CSS and JS references to use relative paths
+  htmlContent = htmlContent.replace(
+    /<link[^>]*href="[^"]*styles\.css"[^>]*>/g, 
+    '<link rel="stylesheet" href="styles.css">'
+  );
+  
+  htmlContent = htmlContent.replace(
+    /<script[^>]*src="[^"]*script\.js"[^>]*>/g,
+    '<script src="script.js"></script>'
+  );
   
   // Create a Blob with the HTML content
   const blob = new Blob([htmlContent], { type: 'text/html' });
