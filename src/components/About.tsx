@@ -34,15 +34,15 @@ const About = () => {
               <div className="space-y-4">
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&auto=format&fit=crop&q=60" 
-                    alt="Team collaboration" 
+                    src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
+                    alt="Software developer working on code" 
                     className="w-full h-auto"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60" 
-                    alt="Technology" 
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
+                    alt="Programming code on computer screen" 
                     className="w-full h-auto"
                   />
                 </div>
@@ -50,15 +50,15 @@ const About = () => {
               <div className="space-y-4 mt-8">
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60" 
-                    alt="Code" 
+                    src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
+                    alt="Professional developer at desk" 
                     className="w-full h-auto"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=500&auto=format&fit=crop&q=60" 
-                    alt="Modern architecture" 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
+                    alt="Female developer working on laptop" 
                     className="w-full h-auto"
                   />
                 </div>
