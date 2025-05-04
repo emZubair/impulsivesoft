@@ -1,19 +1,19 @@
 
 const testimonials = [
   {
-    quote: "The team delivered our project ahead of schedule with exceptional quality. Their technical expertise and communication made the process seamless.",
+    quote: "Their mobile automation framework reduced our testing time by 70% and significantly improved our app quality. The team's expertise in Appium was exactly what we needed.",
     author: "Sarah Johnson",
     title: "CTO, TechStart Inc.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&auto=format&fit=crop&q=60"
   },
   {
-    quote: "Working with this team transformed our outdated systems into a modern, efficient platform. They understood our business needs perfectly.",
+    quote: "The web automation solution they built transformed our QA process. Our regression testing is now fully automated, saving us countless hours and improving release confidence.",
     author: "Michael Chen",
     title: "Operations Director, GlobalTech",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&auto=format&fit=crop&q=60"
   },
   {
-    quote: "Their cloud migration expertise saved us countless hours and significantly reduced our infrastructure costs. Highly recommended!",
+    quote: "Their Django and React development expertise helped us launch our platform in record time. The responsive UI and robust API architecture exceeded our expectations.",
     author: "Emily Rodriguez",
     title: "Product Manager, CloudSolutions",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&auto=format&fit=crop&q=60"
