@@ -1,3 +1,4 @@
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -44,16 +45,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold font-display mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors">Software Development</a>
+                <a href="#services" className="text-blue-100 hover:text-white transition-colors">Mobile Automation</a>
               </li>
               <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors">Cloud Engineering</a>
+                <a href="#services" className="text-blue-100 hover:text-white transition-colors">Web Automation</a>
               </li>
               <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors">IT Consulting</a>
-              </li>
-              <li>
-                <a href="#" className="text-blue-100 hover:text-white transition-colors">Digital Transformation</a>
+                <a href="#services" className="text-blue-100 hover:text-white transition-colors">Web Development</a>
               </li>
             </ul>
           </div>
