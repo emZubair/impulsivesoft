@@ -57,8 +57,8 @@ const About = () => {
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
-                    alt="Female developer working on laptop" 
+                    src="https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" 
+                    alt="Pakistani tech professionals in modern workspace" 
                     className="w-full h-auto"
                   />
                 </div>
