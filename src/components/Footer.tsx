@@ -53,6 +53,9 @@ const Footer = () => {
               <li>
                 <a href="#services" className="text-blue-100 hover:text-white transition-colors">Web Development</a>
               </li>
+              <li>
+                <a href="#services" className="text-blue-100 hover:text-white transition-colors">Large model testing & training</a>
+              </li>
             </ul>
           </div>
         </div>

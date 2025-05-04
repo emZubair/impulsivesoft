@@ -34,6 +34,17 @@ const services = [
       "Responsive UI/UX implementation"
     ],
     color: "from-purple-500 to-fuchsia-500"
+  },
+  {
+    title: "Large model testing & training",
+    description: "Optimize and validate your machine learning and AI models with our specialized testing and training services.",
+    features: [
+      "LLM model validation and testing",
+      "Custom training data preparation",
+      "Performance optimization techniques",
+      "Integration with existing systems"
+    ],
+    color: "from-amber-500 to-orange-600"
   }
 ];
 
@@ -48,7 +59,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
