@@ -10,7 +10,7 @@ const testimonials = [
     quote: "The web automation solution they built transformed our QA process. Our regression testing is now fully automated, saving us countless hours and improving release confidence.",
     author: "Justin",
     title: "Digital Certificates",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&auto=format&fit=crop&q=60"
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=120&h=120&auto=format&fit=crop&q=60"
   },
   {
     quote: "Their Django and React development expertise helped us launch our platform in record time. The responsive UI and robust API architecture exceeded our expectations.",
