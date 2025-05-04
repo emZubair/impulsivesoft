@@ -11,18 +11,18 @@ const Footer = () => {
                 alt="ImpulsiveSoft Logo" 
                 className="h-10 mr-3 bg-white rounded-full p-1" 
               />
-              <span className="text-2xl font-bold">ImpulsiveSoft</span>
+              <span className="text-2xl font-bold font-display">ImpulsiveSoft</span>
             </div>
             <p className="text-blue-100 mb-6 max-w-md">
               Delivering exceptional IT engineering services through leading freelance platforms. We help businesses transform their digital presence with cutting-edge technology.
             </p>
-            <p className="text-blue-200 text-sm">
+            <p className="text-blue-200 text-sm font-display">
               © {new Date().getFullYear()} ImpulsiveSoft. All rights reserved.
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold font-display mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-blue-100 hover:text-white transition-colors">Services</a>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold font-display mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-blue-100 hover:text-white transition-colors">Software Development</a>
