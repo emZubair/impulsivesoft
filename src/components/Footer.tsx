@@ -1,5 +1,6 @@
-
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer className="bg-blue-600 text-white py-12">
       <div className="container">
@@ -17,7 +18,7 @@ const Footer = () => {
               Delivering exceptional IT engineering services through leading freelance platforms. We help businesses transform their digital presence with cutting-edge technology.
             </p>
             <p className="text-blue-200 text-sm font-display">
-              © {new Date().getFullYear()} ImpulsiveSoft. All rights reserved.
+              © {currentYear} ImpulsiveSoft. All rights reserved.
             </p>
           </div>
           
