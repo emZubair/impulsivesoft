@@ -42,8 +42,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900; /* Black weight */
   line-height: 1.2;
 }
 
@@ -137,6 +137,8 @@ img {
   font-size: 2rem;
   color: var(--primary-blue);
   margin-bottom: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900; /* Black weight */
 }
 
 @media (min-width: 768px) {
@@ -201,7 +203,7 @@ img {
 .logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   color: var(--primary-blue);
 }
 
@@ -319,6 +321,7 @@ img {
 .hero-title {
   font-size: 2.5rem;
   font-weight: 900;
+  font-family: 'Orbitron', sans-serif;
   color: var(--primary-blue);
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -451,6 +454,8 @@ img {
   font-size: 1.25rem;
   color: var(--primary-blue);
   margin-bottom: 0.75rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500; /* Medium weight */
 }
 
 .card-description {
@@ -690,7 +695,7 @@ img {
 .footer-logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .footer-description {
@@ -702,13 +707,14 @@ img {
 .footer-copyright {
   font-size: 0.875rem;
   color: var(--blue-200);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500; /* Medium weight */
 }
 
 .footer-heading {
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   margin-bottom: 1rem;
 }
 
