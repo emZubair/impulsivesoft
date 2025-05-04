@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ImpulsiveSoft - Specialist Automation & Web Development</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Navbar -->
@@ -14,7 +14,7 @@
     <div class="container">
       <div class="navbar-content">
         <a href="#" class="logo">
-          <img src="images/logo.png" alt="ImpulsiveSoft Logo" class="logo-img">
+          <img src="public/lovable-uploads/5d622ad5-c5b1-48a7-97d7-9ea39bb61dc0.png" alt="ImpulsiveSoft Logo" class="logo-img">
           <span class="logo-text">ImpulsiveSoft</span>
         </a>
 
@@ -28,11 +28,7 @@
 
         <!-- Mobile Menu Button -->
         <button class="mobile-menu-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </button>
       </div>
 
@@ -41,7 +37,7 @@
         <a href="#services" class="nav-link">Services</a>
         <a href="#about" class="nav-link">About</a>
         <a href="#testimonials" class="nav-link">Testimonials</a>
-        <a href="#contact" class="contact-btn mobile">Contact Us</a>
+        <a href="#contact" class="contact-btn">Contact Us</a>
       </div>
     </div>
   </header>
@@ -56,12 +52,12 @@
             ImpulsiveSoft delivers high-quality automation and development solutions through leading freelance platforms, specializing in mobile automation, web automation, and Django+React development.
           </p>
           <div class="hero-buttons">
-            <a href="#services" class="btn primary">Explore Services</a>
-            <a href="#about" class="btn outline">Learn More</a>
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+            <a href="#about" class="btn btn-outline">Learn More</a>
           </div>
         </div>
         <div class="hero-image">
-          <div class="image-wrapper">
+          <div class="image-container">
             <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Software development workspace with code on screen">
           </div>
         </div>
@@ -70,7 +66,7 @@
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="services section">
+  <section id="services" class="services">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Our Services</h2>
@@ -80,174 +76,58 @@
       </div>
 
       <div class="services-grid">
-        <!-- Mobile Automation -->
         <div class="service-card">
-          <div class="card-accent blue"></div>
-          <div class="card-content">
-            <h3 class="card-title">Mobile Automation</h3>
-            <p class="card-description">Streamline your mobile testing processes with our comprehensive automation solutions.</p>
+          <div class="service-accent blue"></div>
+          <div class="service-content">
+            <h3 class="service-title">Mobile Automation</h3>
+            <p class="service-description">Streamline your mobile testing processes with our comprehensive automation solutions.</p>
             <ul class="feature-list">
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Appium-based automation frameworks</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Cross-platform testing solutions</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>CI/CD integration for mobile testing</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Performance and usability testing</span>
-              </li>
+              <li><span class="check-icon"></span>Appium-based automation frameworks</li>
+              <li><span class="check-icon"></span>Cross-platform testing solutions</li>
+              <li><span class="check-icon"></span>CI/CD integration for mobile testing</li>
+              <li><span class="check-icon"></span>Performance and usability testing</li>
             </ul>
           </div>
         </div>
 
-        <!-- Web Automation -->
         <div class="service-card">
-          <div class="card-accent teal"></div>
-          <div class="card-content">
-            <h3 class="card-title">Web Automation</h3>
-            <p class="card-description">Enhance efficiency and reduce manual effort with our expert web automation services.</p>
+          <div class="service-accent teal"></div>
+          <div class="service-content">
+            <h3 class="service-title">Web Automation</h3>
+            <p class="service-description">Enhance efficiency and reduce manual effort with our expert web automation services.</p>
             <ul class="feature-list">
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Selenium-based test automation</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Automated regression testing</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Performance monitoring automation</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Custom automation frameworks</span>
-              </li>
+              <li><span class="check-icon"></span>Selenium-based test automation</li>
+              <li><span class="check-icon"></span>Automated regression testing</li>
+              <li><span class="check-icon"></span>Performance monitoring automation</li>
+              <li><span class="check-icon"></span>Custom automation frameworks</li>
             </ul>
           </div>
         </div>
 
-        <!-- Web Development -->
         <div class="service-card">
-          <div class="card-accent purple"></div>
-          <div class="card-content">
-            <h3 class="card-title">Web Development</h3>
-            <p class="card-description">Create powerful, scalable web applications with our Django and React development expertise.</p>
+          <div class="service-accent purple"></div>
+          <div class="service-content">
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">Create powerful, scalable web applications with our Django and React development expertise.</p>
             <ul class="feature-list">
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Django REST framework backend</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>React frontend development</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>API development & integration</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Responsive UI/UX implementation</span>
-              </li>
+              <li><span class="check-icon"></span>Django REST framework backend</li>
+              <li><span class="check-icon"></span>React frontend development</li>
+              <li><span class="check-icon"></span>API development & integration</li>
+              <li><span class="check-icon"></span>Responsive UI/UX implementation</li>
             </ul>
           </div>
         </div>
 
-        <!-- Large Model Testing & Training -->
         <div class="service-card">
-          <div class="card-accent orange"></div>
-          <div class="card-content">
-            <h3 class="card-title">Large model testing & training</h3>
-            <p class="card-description">Optimize and validate your machine learning and AI models with our specialized testing and training services.</p>
+          <div class="service-accent orange"></div>
+          <div class="service-content">
+            <h3 class="service-title">Large model testing & training</h3>
+            <p class="service-description">Optimize and validate your machine learning and AI models with our specialized testing and training services.</p>
             <ul class="feature-list">
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>LLM model validation and testing</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Custom training data preparation</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Performance optimization techniques</span>
-              </li>
-              <li>
-                <span class="check-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span>Integration with existing systems</span>
-              </li>
+              <li><span class="check-icon"></span>LLM model validation and testing</li>
+              <li><span class="check-icon"></span>Custom training data preparation</li>
+              <li><span class="check-icon"></span>Performance optimization techniques</li>
+              <li><span class="check-icon"></span>Integration with existing systems</li>
             </ul>
           </div>
         </div>
@@ -256,7 +136,7 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about section">
+  <section id="about" class="about">
     <div class="container">
       <div class="about-content">
         <div class="about-text">
@@ -312,7 +192,7 @@
   </section>
 
   <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section">
+  <section id="testimonials" class="testimonials">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Client Testimonials</h2>
@@ -322,18 +202,15 @@
       </div>
 
       <div class="testimonials-grid">
-        <!-- Testimonial 1 -->
         <div class="testimonial-card">
           <div class="quote-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
             </svg>
           </div>
           <p class="testimonial-text">Their mobile automation framework reduced our testing time by 70% and significantly improved our app quality. The team's expertise in Appium was exactly what we needed.</p>
           <div class="testimonial-author">
-            <div class="author-image">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&auto=format&fit=crop&q=60" alt="Abel de Silva">
-            </div>
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&auto=format&fit=crop&q=60" alt="Abel de Silva" class="author-image">
             <div class="author-info">
               <h4 class="author-name">Abel de Silva</h4>
               <p class="author-title">Manager, CiNKO</p>
@@ -341,18 +218,15 @@
           </div>
         </div>
 
-        <!-- Testimonial 2 -->
         <div class="testimonial-card">
           <div class="quote-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
             </svg>
           </div>
           <p class="testimonial-text">The web automation solution they built transformed our QA process. Our regression testing is now fully automated, saving us countless hours and improving release confidence.</p>
           <div class="testimonial-author">
-            <div class="author-image">
-              <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=120&h=120&auto=format&fit=crop&q=60" alt="Justin">
-            </div>
+            <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=120&h=120&auto=format&fit=crop&q=60" alt="Justin" class="author-image">
             <div class="author-info">
               <h4 class="author-name">Justin</h4>
               <p class="author-title">Digital Certificates</p>
@@ -360,18 +234,15 @@
           </div>
         </div>
 
-        <!-- Testimonial 3 -->
         <div class="testimonial-card">
           <div class="quote-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
             </svg>
           </div>
           <p class="testimonial-text">Their Django and React development expertise helped us launch our platform in record time. The responsive UI and robust API architecture exceeded our expectations.</p>
           <div class="testimonial-author">
-            <div class="author-image">
-              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&auto=format&fit=crop&q=60" alt="Nora">
-            </div>
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&auto=format&fit=crop&q=60" alt="Nora" class="author-image">
             <div class="author-info">
               <h4 class="author-name">Nora</h4>
               <p class="author-title">Product Owner, Tribes</p>
@@ -383,7 +254,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section">
+  <section id="contact" class="contact">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Get in Touch</h2>
@@ -391,93 +262,81 @@
           Ready to transform your digital presence? Contact us today to discuss your project.
         </p>
       </div>
-      
-      <div class="contact-grid">
-        <div class="contact-form">
-          <form id="contactForm">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" id="email" name="email" required>
+
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" required>
+              </div>
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject">
+              <input type="text" id="subject" placeholder="Subject">
             </div>
             <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Your message" required></textarea>
             </div>
-            <button type="submit" class="btn primary">Send Message</button>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
           </form>
         </div>
         
-        <div class="contact-info">
-          <h3>Contact Information</h3>
-          <div class="info-item">
-            <div class="info-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
+        <div class="contact-info-container">
+          <h3 class="contact-info-title">Contact Information</h3>
+          
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="info-icon mail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="info-content">
+                <h4>Email</h4>
+                <p>impulsivesoft@gmail.com</p>
+                <p>info@impulsivesoft.com</p>
+              </div>
             </div>
-            <div class="info-content">
-              <h4>Email</h4>
-              <p>impulsivesoft@gmail.com</p>
-              <p>info@impulsivesoft.com</p>
+            
+            <div class="contact-info-item">
+              <div class="info-icon phone-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="info-content">
+                <h4>Phone</h4>
+                <p>+92 (42) 36435497</p>
+                <p>+92 (333) 6208720</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <div class="info-icon location-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="info-content">
+                <h4>Location</h4>
+                <p>458E, Canal Garden,</p>
+                <p>Lahore, Pakistan</p>
+              </div>
             </div>
           </div>
           
-          <div class="info-item">
-            <div class="info-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-            </div>
-            <div class="info-content">
-              <h4>Phone</h4>
-              <p>+92 (42) 36435497</p>
-              <p>+92 (333) 6208720</p>
-            </div>
-          </div>
-          
-          <div class="info-item">
-            <div class="info-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-            </div>
-            <div class="info-content">
-              <h4>Location</h4>
-              <p>458E, Canal Garden,</p>
-              <p>Lahore, Pakistan</p>
-            </div>
-          </div>
-          
-          <!-- Social Media Links -->
           <div class="social-links">
             <h4>Follow Us</h4>
             <div class="social-icons">
-              <a href="https://linkedin.com" target="_blank" class="social-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                  <rect x="2" y="9" width="4" height="12"></rect>
-                  <circle cx="4" cy="4" r="2"></circle>
-                </svg>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
               </a>
-              <a href="https://twitter.com" target="_blank" class="social-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86-3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                </svg>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
               </a>
-              <a href="https://github.com" target="_blank" class="social-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                </svg>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               </a>
             </div>
           </div>
@@ -489,38 +348,40 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-branding">
+      <div class="footer-content">
+        <div class="footer-info">
           <div class="footer-logo">
-            <img src="images/logo.png" alt="ImpulsiveSoft Logo" class="footer-logo-img">
-            <span class="footer-logo-text">ImpulsiveSoft</span>
+            <img src="public/lovable-uploads/5d622ad5-c5b1-48a7-97d7-9ea39bb61dc0.png" alt="ImpulsiveSoft Logo" class="logo-img">
+            <span class="logo-text">ImpulsiveSoft</span>
           </div>
           <p class="footer-description">
             Delivering exceptional IT engineering services through leading freelance platforms. We help businesses transform their digital presence with cutting-edge technology.
           </p>
-          <p class="footer-copyright">
-            © <span id="current-year"></span> ImpulsiveSoft. All rights reserved.
+          <p class="copyright">
+            © <span id="current-year">2025</span> ImpulsiveSoft. All rights reserved.
           </p>
         </div>
         
         <div class="footer-links">
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-nav">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-services">
-          <h3 class="footer-heading">Services</h3>
-          <ul class="footer-nav">
-            <li><a href="#services">Mobile Automation</a></li>
-            <li><a href="#services">Web Automation</a></li>
-            <li><a href="#services">Web Development</a></li>
-            <li><a href="#services">Large model testing & training</a></li>
-          </ul>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Quick Links</h3>
+            <ul class="footer-links-list">
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Services</h3>
+            <ul class="footer-links-list">
+              <li><a href="#services">Mobile Automation</a></li>
+              <li><a href="#services">Web Automation</a></li>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">Large model testing & training</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

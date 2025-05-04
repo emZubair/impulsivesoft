@@ -1,6 +1,11 @@
 
 // Set current year in footer
-document.getElementById('current-year').textContent = new Date().getFullYear();
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+  
+  // Initialize animations for elements in viewport
+  animateOnScroll();
+});
 
 // Navbar scroll effect
 const navbar = document.querySelector('.navbar');
@@ -73,7 +78,7 @@ if (contactForm) {
 
 // Simple animation on scroll
 const animateOnScroll = () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card, .info-item, .social-icon');
+  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
   
   elements.forEach(element => {
     const elementPosition = element.getBoundingClientRect().top;
@@ -88,7 +93,7 @@ const animateOnScroll = () => {
 
 // Set initial styles for animation
 document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card, .info-item, .social-icon');
+  const elements = document.querySelectorAll('.service-card, .testimonial-card, .stat-item, .image-card');
   
   elements.forEach(element => {
     element.style.opacity = '0';
