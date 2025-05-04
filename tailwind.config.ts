@@ -122,6 +122,7 @@ export default {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
 				display: ['Orbitron', 'sans-serif'],
+				orbitron: ['Orbitron', 'sans-serif'],
 			}
 		}
 	},
