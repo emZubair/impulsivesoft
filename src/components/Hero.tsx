@@ -27,8 +27,8 @@ const Hero = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-20"></div>
               <div className="relative bg-white p-5 rounded-lg shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
-                  alt="Modern technology workspace with computer screens showing code" 
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                  alt="Software engineers working with code on multiple screens" 
                   className="w-full h-auto rounded-lg"
                 />
               </div>
